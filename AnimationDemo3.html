@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Animation Demo3</title>
+<style type ="text/css">
+
+@-webkit-keyframes myfirst
+{
+0%{transform:rotation(0degree);}
+10%{transform:rotation(10degree);}
+20%{transform:rotation(60degree);}
+30%{transform:rotation(80degree);}
+40%{transform:rotation(100degree);}
+50%{transform:rotation(150degree);}
+60%{transform:rotation(200degree);}
+70%{transform:rotation(250degree);}
+80%{transform:rotation(290degree);}
+90%{transform:rotation(320degree);}
+100%{transform:rotation(360degree);}
+
+
+}
+
+div
+{
+height:200px;
+width:200px;
+background:#e8e8e8;
+-webkit-animation-name:myfirst;
+-webkit-animation-duration:5s;
+-webkit-animation-play-state:running;
+-webkit-animation-iteration-count:infinite;
+
+}
+
+/*div:hover
+{
+width:600px;
+}*/
+</style>
+</head>
+<body>
+Sample
+</body>
+</html>
